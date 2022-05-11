@@ -1,0 +1,63 @@
+.main-header {
+  background-color: $mainBlack;
+  color: darken($mainBlue, 10%);
+  display: grid;
+  grid-template-columns: $gtc2;
+  font-size: 0.8em;
+  text-align: center;
+  height: 50px;
+
+  .main-nav {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      font-size: 2em;
+      font-weight: 700;
+      transition: transform 01s, background-color 1s;
+
+      &:hover {
+        background-color: darken($mainBlue, 80);
+        transform: scale3d(1.1, 1.1, 1.2);
+        cursor: pointer;
+      }
+    }
+
+
+    .router-link-exact-active {
+      background-color: darken($mainBlue, 60);
+      border-radius: 10px;
+      color: lighten($mainBlue, 8);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      line-height: 1.2em;
+      max-width: 200px;
+      min-width: 180px;
+      justify-content: space-between;
+    }
+
+    .link {
+      color: $mainBlue;
+      text-decoration: none;
+      padding: 5px;
+
+      &:hover {
+        color: lighten($mainBlue, 8);
+      }
+    }
+  }
+
+  .login-img {
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    position: relative;
+    transform: translate(0, 10%);
+    width: 25px;
+  }
+
+}

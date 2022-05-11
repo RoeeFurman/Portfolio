@@ -1,0 +1,44 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin: auto;
+    font-size: 14px;
+
+    .contact>* {
+        margin-left: 20px;
+        text-align: center;
+
+        i {
+            background-color: black;
+            height: 24px;
+            width: 24px;
+            vertical-align: middle;
+            line-height: 24px;
+            font-size: 16px;
+            border-radius: 50%;
+            color: white;
+            transition: all .31s;
+
+            &.fa-facebook {
+                &:hover {
+                    color: #1b74e4;
+                }
+            }
+
+            &.fa-linkedin {
+                &:hover {
+                    color: #0a66c2;
+                }
+            }
+
+            &:hover {
+                color: orange;
+            }
+        }
+
+
+    }
+
+
+}

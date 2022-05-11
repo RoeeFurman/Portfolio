@@ -1,0 +1,36 @@
+.item-app {
+  display: grid;
+  grid-template-columns: $gtc;
+  grid-template-rows: 1fr;
+  height: calc(100vh - 100px);
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+
+  .sec-nav-container {
+    display: flex;
+    margin-top: 15px;
+    height: 100px;
+  }
+
+  .add-item {
+    width: 150px;
+    margin: auto;
+    font-size: 1em;
+    font-weight: 900;
+    background-color: lighten($mainBlack, 80);
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform 0.8s, background-color 0.7s;
+
+    &:hover {
+      background-color: lighten($mainBlack, 70);
+      //   transform: rotate(-0.01turn);
+      transform: scale(1.1);
+    }
+  }
+
+  >* {
+    grid-column: 2;
+  }
+}
