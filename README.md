@@ -34,7 +34,7 @@ npm run build
 git init
 git add .
 git commit -m "your commit"
-git remote add origin https://github.com/RoeeFurman/Fyloo.git
+git remote add origin https://github.com/RoeeFurman/.git
 
 # go to vite.config.js file and set base to your repo name
 

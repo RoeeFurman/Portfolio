@@ -1,9 +1,12 @@
 .item-app {
   display: grid;
   grid-template-columns: $gtc;
-  grid-template-rows: 1fr;
+
+  background: rgb(154, 255, 245);
+  background: radial-gradient(circle, #85ceff 0%, #ffffff 100%);
+
   height: calc(100vh - 100px);
-  gap: 15px;
+  gap: 10px;
   text-align: center;
   align-items: center;
 

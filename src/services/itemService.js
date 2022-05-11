@@ -9,30 +9,30 @@ export default {
 const items = [
     {
         "_id": "5a566402abb3146207bc4ec5",
-        "name": "Funday",
-        "row": '4 / -1',
-        "column": '9 / -1',
+        "name": "Loop Machine",
+        "row": '5 / -1',
+        "column": '10 / 13',
         'color': 'gold'
     },
     {
         "_id": "5a56640208fba3e8ecb97305",
-        "name": "Pacman",
+        "name": "Funday",
         "row": '3 / 5',
-        "column": '6 / 8',
+        "column": '5 / 8',
         'color': 'lightpink'
 
     },
     {
         "_id": "5a56640298500fead8cb1ee5",
         "name": "Mister Bitcoin",
-        "row": 6,
-        "column": 1,
-        'color': 'lightblue'
+        "row": '4/6',
+        "column": 3,
+        'color': '#85ceff'
 
     },
     {
         "_id": "5a56640243427b8f8445231e",
-        "name": "Loop Machine",
+        "name": "Pacman",
         "row": 2,
         "column": 9,
         'color': 'lightgray'
@@ -42,13 +42,13 @@ const items = [
         "name": "Meme Generator",
         "row": 1,
         "column": 4,
-        'color': 'lightsalmon'
+        'color': '#00ceff'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mine Sweeper",
         "row": 2,
-        "column": 2,
+        "column": '1/3',
         'color': 'lightgreen'
     },
     {
@@ -62,7 +62,7 @@ const items = [
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mister-Toy",
         "row": 1,
-        "column": 13,
+        "column": '11/13',
         'color': 'aqua'
     }
 ];
