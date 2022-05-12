@@ -4,6 +4,7 @@
       'grid-row': item?.row,
       'grid-column': item?.column,
       'background-color': item?.color,
+      'font-size': item?.fontSize,
     }"
   >
     <li>

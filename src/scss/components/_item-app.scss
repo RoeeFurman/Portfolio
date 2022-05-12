@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: $gtc;
 
-  background: rgb(154, 255, 245);
-  background: radial-gradient(circle, #85ceff 0%, #ffffff 100%);
+  background: #d4eeff;
+  // background: radial-gradient(circle, #bae3ff 0%, #d6ffb7 100%);
+  background: radial-gradient(circle, #ffffff 0%, #c4fffd 100%);
 
   height: calc(100vh - 100px);
   gap: 10px;

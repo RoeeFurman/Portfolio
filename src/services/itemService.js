@@ -11,59 +11,64 @@ const items = [
         "_id": "5a566402abb3146207bc4ec5",
         "name": "Loop Machine",
         "row": '5 / -1',
-        "column": '10 / 13',
-        'color': 'gold'
+        "column": '8 / 10',
+        'color': '#9eedff',
+        'fontSize': '30px'
     },
     {
         "_id": "5a56640208fba3e8ecb97305",
         "name": "Funday",
         "row": '3 / 5',
-        "column": '5 / 8',
-        'color': 'lightpink'
+        "column": '5 / 7',
+        'color': '#7ae6ff',
+        'fontSize': '42px'
 
     },
     {
         "_id": "5a56640298500fead8cb1ee5",
         "name": "Mister Bitcoin",
         "row": '4/6',
-        "column": 3,
-        'color': '#85ceff'
-
+        "column": '2/4',
+        'color': '#85ceff',
+        'fontSize': '24px'
     },
     {
         "_id": "5a56640243427b8f8445231e",
         "name": "Pacman",
-        "row": 2,
-        "column": 9,
+        "row": 3,
+        "column": 8,
         'color': 'lightgray'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Meme Generator",
         "row": 1,
-        "column": 4,
+        "column": 7,
         'color': '#00ceff'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mine Sweeper",
         "row": 2,
-        "column": '1/3',
-        'color': 'lightgreen'
+        "column": '2/4',
+        'color': '#b8e8ff',
+        'fontSize': '20px'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Appsus",
         "row": 6,
         "column": 5,
-        'color': 'orange'
+        'color': '#ffffff',
+        'fontSize': '24px'
+
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mister-Toy",
         "row": 1,
-        "column": '11/13',
-        'color': 'aqua'
+        "column": '5',
+        'color': '#95d8ff'
     }
 ];
 
