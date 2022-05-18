@@ -13,7 +13,8 @@ const items = [
         "row": '5 / -1',
         "column": '8 / 10',
         'color': '#9eedff',
-        'fontSize': '30px'
+        'fontSize': '26px',
+        'imgURL': './src/assets/img/pp.jpg'
     },
     {
         "_id": "5a56640208fba3e8ecb97305",

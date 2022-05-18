@@ -9,6 +9,7 @@
   >
     <li>
       <label>{{ item.name }}</label>
+      <img :src="item.imgURL" />
     </li>
     <!-- <article v-if="openPreviewMode">
       <h3>{{ item._id }}</h3>
