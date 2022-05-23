@@ -1,8 +1,8 @@
 .item-list {
     display: grid;
-    grid-template-columns: repeat(10, minmax(100px, 1fr));
-    grid-template-rows: repeat(6, minmax(100px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, minmax(100px, 1fr));
+    gap: 60px;
 
     @media (max-width: 1200px) {
         grid-template-columns: repeat(10, minmax(50px, 1fr));

@@ -1,22 +1,25 @@
 <template>
-  <section
-    :style="{
-      'grid-row': item?.row,
-      'grid-column': item?.column,
-      'background-color': item?.color,
-      'font-size': item?.fontSize,
-    }"
-  >
-    <li>
-      <label>{{ item.name }}</label>
-      <img :src="item.imgURL" />
-    </li>
-    <!-- <article v-if="openPreviewMode">
-      <h3>{{ item._id }}</h3>
-      <h3>{{ item.name }}</h3>
-      <h3>{{ item.email }}</h3>
-      <h3>{{ item.phone }}</h3>
-    </article> -->
+  <section class="card">
+    <div class="title">
+      {{ item.name }}
+    </div>
+    <div
+      class="item-preview"
+      :style="{
+        'grid-row': item?.row,
+        'grid-column': item?.column,
+        'background-color': item?.bgcolor,
+        'font-size': item?.fontSize || 24 + 'px',
+        'background-image': 'url(' + item?.imgURL + ')',
+        color: item?.color,
+      }"
+    >
+      <div class="actions">
+        <button>action1</button>
+        <button>action2</button>
+        <button>action3</button>
+      </div>
+    </div>
   </section>
 </template>
 

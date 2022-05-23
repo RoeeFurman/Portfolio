@@ -1,24 +1,30 @@
 .main-header {
-  background-color: rgb(27, 24, 24);
+  background: rgb(62, 91, 133);
+  background: linear-gradient(231deg, rgba(62, 91, 133, 1) 37%, rgba(0, 0, 0, 1) 100%);
   color: $mainBlue;
   display: grid;
   grid-template-columns: $gtc;
-  font-size: 0.8em;
-  text-align: center;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  border-bottom: 2px solid snow;
 
   .main-nav {
     grid-column: 2;
     display: flex;
     justify-content: space-between;
+    line-height: 60px;
+    vertical-align: middle;
 
     .logo {
+      display: flex;
+      align-items: center;
       letter-spacing: -1px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 32px;
+      font-family: Fasthand;
+      font-size: 36px;
       font-weight: 500;
       transition: all 1s;
+      color: white;
+      letter-spacing: 2px;
 
       &:hover {
         color: lighten($mainBlue, 100);
@@ -30,7 +36,6 @@
         border-radius: 50%;
         border: 2px solid white;
         margin-right: 10px;
-        margin-bottom: 8px;
       }
 
     }
@@ -48,7 +53,7 @@
 
 
       .link {
-        color: $mainBlue;
+        color: white;
         text-decoration: none;
         padding: 5px;
 
