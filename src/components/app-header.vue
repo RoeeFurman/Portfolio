@@ -1,9 +1,7 @@
 <template>
   <header class="main-header">
     <header class="main-nav">
-      <div class="logo">
-        <img src=".././assets/img/pp.jpg" class="my-img" />Roee Furman
-      </div>
+      <div class="logo">Roee Furman</div>
       <nav>
         <router-link class="link" to="/">Home</router-link>
         <router-link class="link" to="/">About me </router-link>

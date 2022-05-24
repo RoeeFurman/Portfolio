@@ -1,8 +1,5 @@
 <template>
   <section class="card">
-    <div class="title">
-      {{ item.name }}
-    </div>
     <div
       class="item-preview"
       :style="{
@@ -10,15 +7,17 @@
         'grid-column': item?.column,
         'background-color': item?.bgcolor,
         'font-size': item?.fontSize || 24 + 'px',
-        'background-image': 'url(' + item?.imgURL + ')',
         color: item?.color,
       }"
     >
+      <img class="main-pic" :src="item?.imgURL" />
       <div class="actions">
-        <button>action1</button>
-        <button>action2</button>
-        <button>action3</button>
+        <button>Details</button>
+        <button>Check it out!</button>
       </div>
+    </div>
+    <div class="title">
+      {{ item.name }}
     </div>
   </section>
 </template>

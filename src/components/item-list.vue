@@ -1,4 +1,5 @@
 <template>
+  <h1 class="projects-title">My Projects</h1>
   <ul class="item-list">
     <item-preview
       class="item-preview"
