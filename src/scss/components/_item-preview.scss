@@ -36,7 +36,8 @@
         vertical-align: middle;
 
 
-        button {
+        button,
+        a {
             flex-basis: 1;
             color: white;
             background: none;
@@ -45,6 +46,8 @@
             border: none;
             padding: 4px 16px;
             transition: .6s all;
+            text-decoration: none;
+            cursor: pointer;
 
             &:hover {
                 background-color: #bddcff;

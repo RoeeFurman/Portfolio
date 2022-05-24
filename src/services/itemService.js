@@ -10,8 +10,7 @@ const items = [
     {
         "_id": "5a566402abb3146207bc4ec5",
         "name": "Loop Machine",
-        // "row": '5 / -1',
-        // "column": '8 / 10',
+        "webURL": 'https://roeefurman.github.io/loopMachine/#/',
         'color': 'white',
         'fontSize': '36px',
         'imgURL': 'loopmachine'
@@ -19,8 +18,7 @@ const items = [
     {
         "_id": "5a56640208fba3e8ecb97305",
         "name": "Funday",
-        // "row": '3 / 5',
-        // "column": '5 / 7',
+        "webURL": 'https://funday-ca.herokuapp.com/#/',
         'color': 'white',
         'fontSize': '42px',
         'imgURL': 'funday'
@@ -29,8 +27,7 @@ const items = [
     {
         "_id": "5a56640298500fead8cb1ee5",
         "name": "Mister Bitcoin",
-        // "row": '4/6',
-        // "column": '2/4',
+        "webURL": 'https://roeefurman.github.io/Mister-Bitcoin/#/',
         'color': 'black',
         'fontSize': '34px',
         'imgURL': 'misterbitcoin'
@@ -39,8 +36,7 @@ const items = [
     {
         "_id": "5a56640243427b8f8445231e",
         "name": "Pacman",
-        // "row": 3,
-        // "column": 8,
+        "webURL": 'https://roeefurman.github.io/Pacman/',
         'color': 'white',
         'fontSize': '34px',
         'imgURL': 'pacman'
@@ -48,8 +44,8 @@ const items = [
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Meme Generator",
-        // "row": 1,
-        // "column": 7,
+        "webURL": 'https://roeefurman.github.io/Meme-Generator/',
+
         'color': '#00ceff',
         'fontSize': '40px',
         'imgURL': 'memegene'
@@ -58,8 +54,7 @@ const items = [
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mine Sweeper",
-        // "row": 2,
-        // "column": '2/4',
+        "webURL": 'https://roeefurman.github.io/Mine-Sweeper/',
         'color': 'purple',
         'fontSize': '30px',
         'imgURL': 'minesweeper'
@@ -68,8 +63,7 @@ const items = [
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Appsus",
-        // "row": 6,
-        // "column": 5,
+        "webURL": 'https://roeefurman.github.io/appsus',
         'color': 'darkblue',
         'fontSize': '34px',
         'imgURL': 'appsus'
@@ -77,8 +71,7 @@ const items = [
     {
         "_id": "5a5664025c3abdad6f5e098c",
         "name": "Mister-Toy",
-        // "row": 1,
-        // "column": '5',
+        "webURL": 'https://protected-scrubland-64482.herokuapp.com/#/',
         'color': '#95d8ff',
         'imgURL': 'mistertoy'
     }

@@ -45,12 +45,8 @@ export default {
   methods: {
     getRandomPosition() {
       return {
-        top:
-          utilService.getRandomInt(
-            window.innerHeight + 20,
-            window.innerHeight + 200
-          ) + "px",
-        left: utilService.getRandomInt(10, window.innerWidth - 40) + "px",
+        top: utilService.getRandomInt(0, 200) + "px",
+        left: utilService.getRandomInt(25, window.innerWidth - 35) + "px",
       };
     },
   },
