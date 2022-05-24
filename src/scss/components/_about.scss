@@ -1,5 +1,8 @@
 .about {
     background-color: #070a0e;
+    background-image: url('https://svgsilh.com/svg/1254502-607d8b.svg');
+    background-image: url('https://svgsilh.com/svg/1254502-3e5b85.svg');
+    background-size: cover;
     height: 100vh;
     padding: 100px 150px;
     display: flex;
@@ -8,32 +11,42 @@
     justify-content: center;
     width: 100%;
     border-bottom: 3px solid;
-    border-image: linear-gradient(45deg, #ffffff, rgb(0, 145, 255)) 1;
+    border-image: linear-gradient(45deg, #ffffff, rgb(255, 111, 0)) 1;
+
+    .bg {
+        background-color: #070a0eb5;
+        padding: 20px;
+        border-radius: 80px;
+        border: 1px solid darkgray;
+        -webkit-box-shadow: 0px 0px 37px 30px rgba(0, 0, 0, 0.57);
+        box-shadow: 0px 0px 37px 30px rgba(0, 0, 0, 0.57);
+    }
 
     .main-title {
         color: white;
         font-size: 44px;
-        // padding: 5px;
-        margin-top: 50px;
+        margin-top: 30px;
         text-align: left;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
         &.big {
             font-size: 64px;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 8px #bddcff;
+            text-shadow: 2px 2px 4px #bddcff;
         }
     }
 
     .my-pic {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
         border: 2px solid snow;
+        margin: 20px;
         float: right;
     }
 
     .main-text {
+        text-shadow: 0px 0px 20px #000000;
         color: white;
         font-size: 22px;
         max-width: 1200px;
