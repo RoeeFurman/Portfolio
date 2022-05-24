@@ -1,10 +1,9 @@
 .item-list {
-    min-height: 650px;
+    min-height: 500px;
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 400px));
     grid-template-rows: repeat(2, minmax(100px, 1fr));
     gap: 60px;
-
 
     @media (max-width: 1200px) {
         grid-template-columns: repeat(3, minmax(50px, 1fr));
@@ -20,7 +19,7 @@
 }
 
 .projects-title {
-    padding: 55px;
+    // padding: 55px;
     font-family: Fasthand;
     font-size: 66px;
     color: white;

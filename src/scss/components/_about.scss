@@ -14,6 +14,10 @@
     border-image: linear-gradient(45deg, #ffffff, rgb(255, 111, 0)) 1;
 
     .bg {
+        position: absolute;
+        top: calc(50% + 30px);
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: #070a0eb5;
         padding: 20px;
         border-radius: 80px;
@@ -55,7 +59,7 @@
 
     .contact {
         width: 60%;
-        padding: 10px 200px;
+        padding: 5px 100px;
         display: flex;
         justify-content: space-between;
         margin: 60px auto 10px;
@@ -63,5 +67,17 @@
         background-color: #181e25;
         border-radius: 20px;
         box-shadow: 1px 1px 8px #bddcff;
+
+        >* {
+            background-color: #bddcff;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 40px;
+            vertical-align: middle;
+            border: 1px solid white;
+            text-shadow: 2px 2px 8px #070a0e;
+        }
     }
 }
