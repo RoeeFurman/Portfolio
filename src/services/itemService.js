@@ -72,8 +72,7 @@ const items = [
         // "column": 5,
         'color': 'darkblue',
         'fontSize': '34px',
-        'imgURL': './src/assets/img/appsus.png'
-
+        'imgURL': '../src/assets/img/appsus.png'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",

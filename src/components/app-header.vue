@@ -2,8 +2,7 @@
   <header class="main-header">
     <header class="main-nav">
       <div class="logo">
-        <img src=".././assets/img/pp.jpg" class="my-img" />Roee Furman's
-        Portfolio
+        <img src=".././assets/img/pp.jpg" class="my-img" />Roee Furman
       </div>
       <nav>
         <router-link class="link" to="/">Home</router-link>

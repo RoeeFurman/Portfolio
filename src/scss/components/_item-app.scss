@@ -4,12 +4,18 @@
 
   background: #d4eeff;
   // background: radial-gradient(circle, #bae3ff 0%, #d6ffb7 100%);
-  background: radial-gradient(circle, #bfd5e6 0%, #537ab0 100%);
-
+  // background: radial-gradient(circle, #bfd5e6 0%, #537ab0 100%);
+  background: rgb(119, 147, 189);
+  background: linear-gradient(180deg, rgba(119, 147, 189, 1) 31%, rgba(0, 0, 0, 1) 93%);
   height: calc(100vh - 112px);
   gap: 10px;
   text-align: center;
   align-items: center;
+
+  @media (max-width: 900px) {
+    height: 100%;
+    width: 100%;
+  }
 
   .sec-nav-container {
     display: flex;
