@@ -1,7 +1,8 @@
 export const utilService = {
     store,
     load,
-    makeId
+    makeId,
+    getRandomInt
 }
 
 export function makeId(length = 5) {
@@ -20,6 +21,12 @@ function store(key, value) {
 function load(key, defaultValue = null) {
     var value = localStorage[key] || defaultValue;
     return JSON.parse(value);
+}
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min)
+    max = Math.floor(max)
+    return Math.floor(Math.random() * (max - min + 1)) + min //The maximum is inclusive and the minimum is inclusive
 }
 
 //AXIOS API

@@ -10,6 +10,7 @@
 <script>
 import itemList from "../components/item-list.vue";
 import about from "../components/about.vue";
+
 export default {
   name: "home",
   components: {

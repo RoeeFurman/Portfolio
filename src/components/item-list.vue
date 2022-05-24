@@ -1,4 +1,21 @@
 <template>
+  <div class="main-background">
+    <div v-for="n in 20" :key="n">
+      <div class="universe-star shining" :style="getRandomPosition()"></div>
+    </div>
+    <div v-for="n in 20" :key="n">
+      <div
+        class="universe-star shining-delay"
+        :style="getRandomPosition()"
+      ></div>
+    </div>
+    <div v-for="n in 20" :key="n">
+      <div
+        class="universe-star shining-delay-two"
+        :style="getRandomPosition()"
+      ></div>
+    </div>
+  </div>
   <h1 class="projects-title">My Projects</h1>
   <ul class="item-list">
     <item-preview
@@ -13,6 +30,7 @@
 
 <script>
 import itemPreview from "./item-preview.vue";
+import { utilService } from "../services/utilService.js";
 
 export default {
   props: {
@@ -25,8 +43,15 @@ export default {
     itemPreview,
   },
   methods: {
-    removeItem(itemId) {
-      this.$emit("removeItem", itemId);
+    getRandomPosition() {
+      return {
+        top:
+          utilService.getRandomInt(
+            window.innerHeight + 20,
+            window.innerHeight + 200
+          ) + "px",
+        left: utilService.getRandomInt(10, window.innerWidth - 40) + "px",
+      };
     },
   },
 };

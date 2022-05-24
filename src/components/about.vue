@@ -9,8 +9,8 @@
         <span class="main-title white">Full-Stack Web Developer</span>
         <!-- <p class="main-text"> -->
         with experience in writing single/multi-page-applications using the
-        latest WEB technologies (Vue.js, Node.js, React.js, etc.). Graduate of
-        the Coding Academy - 640 hours of an intensive coding bootcamp that
+        latest WEB technologies (Vue.js, Node.js, React, etc.). Graduate of the
+        Coding Academy - 640 hours of an intensive coding bootcamp that
         qualifies Full-Stack developers.
         <div class="contact">
           <a target="_blank" href="https://www.facebook.com/roee.furman/">

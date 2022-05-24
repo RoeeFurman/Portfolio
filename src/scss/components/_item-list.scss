@@ -4,6 +4,7 @@
     grid-template-columns: repeat(4, minmax(100px, 400px));
     grid-template-rows: repeat(2, minmax(100px, 1fr));
     gap: 60px;
+    padding: 20px 0px 60px 0;
 
     @media (max-width: 1200px) {
         grid-template-columns: repeat(3, minmax(50px, 1fr));
@@ -13,21 +14,69 @@
     @media (max-width: 900px) {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        justify-content: center;
+        width: 100%;
         gap: 10px;
     }
 }
 
 .projects-title {
-    // padding: 55px;
     font-family: Fasthand;
     font-size: 66px;
     color: white;
     font-weight: 500;
     text-shadow: 2px 2px 8px #070a0e;
 
+    @media (max-width: 900px) {
+        font-size: 45px;
+        padding: 60px;
+    }
+
+
 }
 
 .white {
     color: white;
+}
+
+.main-background {
+    z-index: 0;
+
+    .universe-star {
+        background-image: url(https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/parallax/integrations/star.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        z-index: 40;
+
+        &.shining {
+            animation: shining infinite 2s;
+            animation-timing-function: ease-out;
+            height: 10px;
+            width: 10px;
+        }
+
+        &.shining-delay-two {
+            animation: shining infinite 3s;
+            animation-timing-function: ease-out;
+            height: 10px;
+            width: 10px;
+        }
+
+        &.shining-delay {
+            animation: shining infinite 4s;
+            animation-timing-function: ease-out;
+            height: 10px;
+            width: 10px;
+        }
+
+    }
+
+    @keyframes shining {
+        50% {
+            opacity: 0;
+        }
+    }
 }
