@@ -1,15 +1,15 @@
 <template>
   <div class="main-background">
-    <div v-for="n in 20" :key="n">
+    <div v-for="n in 15" :key="n">
       <div class="universe-star shining" :style="getRandomPosition()"></div>
     </div>
-    <div v-for="n in 20" :key="n">
+    <div v-for="n in 15" :key="n">
       <div
         class="universe-star shining-delay"
         :style="getRandomPosition()"
       ></div>
     </div>
-    <div v-for="n in 20" :key="n">
+    <div v-for="n in 15" :key="n">
       <div
         class="universe-star shining-delay-two"
         :style="getRandomPosition()"
@@ -45,7 +45,7 @@ export default {
   methods: {
     getRandomPosition() {
       return {
-        top: utilService.getRandomInt(0, 200) + "px",
+        top: utilService.getRandomInt(0, 400) + "px",
         left: utilService.getRandomInt(25, window.innerWidth - 35) + "px",
       };
     },

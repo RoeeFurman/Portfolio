@@ -26,8 +26,10 @@
     color: white;
     font-weight: 500;
     text-shadow: 2px 2px 8px #070a0e;
+    z-index: 3;
 
     @media (max-width: 900px) {
+        width: 100%;
         font-size: 45px;
         padding: 60px;
         margin: auto;
@@ -48,9 +50,9 @@
         background-image: url(https://dapulse-res.cloudinary.com/image/upload/Generator_featured%20images/Home%20Page%20-%202022%20Rebrand/parallax/integrations/star.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 20px;
-        width: 20px;
-        z-index: 40;
+        height: 10px;
+        width: 10px;
+        z-index: 1;
         left: 0;
 
         &.shining {

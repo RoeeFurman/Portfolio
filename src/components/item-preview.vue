@@ -11,14 +11,12 @@
       }"
     >
       <img class="main-pic" :src="imgUrl" />
-      <!-- <img class="main-pic" :src="item.imgURL" /> -->
       <div class="actions">
         <button>Details</button>
         <a :href="item.webURL" target="_blank">Check it out!</a>
       </div>
     </div>
     <div class="title">
-      <!-- {{ item.imgURL }} -->
       {{ item.name }}
     </div>
   </section>

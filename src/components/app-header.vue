@@ -4,9 +4,7 @@
       <div class="logo">Roee Furman</div>
       <nav>
         <router-link class="link" to="/">Home</router-link>
-        <router-link class="link" to="/">About me </router-link>
-        <!-- <router-link class="link" to="/">Login </router-link> -->
-        <!-- <img src="../assets/img/login.png" class="login-img" /> -->
+        <router-link class="link" to="/">Projects </router-link>
       </nav>
     </header>
   </header>
