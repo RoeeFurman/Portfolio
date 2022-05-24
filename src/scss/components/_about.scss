@@ -1,13 +1,14 @@
 .about {
     background-color: #070a0e;
-    // min-height: 600px;
+    height: 100vh;
     padding: 100px 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     border-bottom: 3px solid;
-    border-image: linear-gradient(45deg, #070a0e, white) 1;
+    border-image: linear-gradient(45deg, #ffffff, rgb(0, 145, 255)) 1;
 
     .main-title {
         color: white;
