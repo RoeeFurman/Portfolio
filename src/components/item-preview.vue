@@ -10,13 +10,15 @@
         color: item?.color,
       }"
     >
-      <img class="main-pic" :src="item?.imgURL" />
+      <img class="main-pic" :src="imgUrl" />
+      <!-- <img class="main-pic" :src="item.imgURL" /> -->
       <div class="actions">
         <button>Details</button>
         <button>Check it out!</button>
       </div>
     </div>
     <div class="title">
+      <!-- {{ item.imgURL }} -->
       {{ item.name }}
     </div>
   </section>
@@ -32,7 +34,11 @@ export default {
     return {};
   },
   components: {},
-  computed: {},
+  computed: {
+    imgUrl() {
+      return new URL(`../assets/img/${this.item.imgURL}.png`, import.meta.url);
+    },
+  },
   methods: {
     goToDetail() {
       this.$router.push(`/item/${this.item._id}`);

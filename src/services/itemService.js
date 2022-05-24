@@ -14,7 +14,7 @@ const items = [
         // "column": '8 / 10',
         'color': 'white',
         'fontSize': '36px',
-        'imgURL': './src/assets/img/loopmachine.png'
+        'imgURL': 'loopmachine'
     },
     {
         "_id": "5a56640208fba3e8ecb97305",
@@ -23,7 +23,7 @@ const items = [
         // "column": '5 / 7',
         'color': 'white',
         'fontSize': '42px',
-        'imgURL': './src/assets/img/funday.png'
+        'imgURL': 'funday'
 
     },
     {
@@ -33,7 +33,7 @@ const items = [
         // "column": '2/4',
         'color': 'black',
         'fontSize': '34px',
-        'imgURL': './src/assets/img/misterbitcoin.png'
+        'imgURL': 'misterbitcoin'
 
     },
     {
@@ -43,7 +43,7 @@ const items = [
         // "column": 8,
         'color': 'white',
         'fontSize': '34px',
-        'imgURL': './src/assets/img/pacman.png'
+        'imgURL': 'pacman'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
@@ -52,7 +52,7 @@ const items = [
         // "column": 7,
         'color': '#00ceff',
         'fontSize': '40px',
-        'imgURL': './src/assets/img/memegene.png'
+        'imgURL': 'memegene'
 
     },
     {
@@ -62,7 +62,7 @@ const items = [
         // "column": '2/4',
         'color': 'purple',
         'fontSize': '30px',
-        'imgURL': './src/assets/img/minesweeper.png'
+        'imgURL': 'minesweeper'
 
     },
     {
@@ -72,7 +72,7 @@ const items = [
         // "column": 5,
         'color': 'darkblue',
         'fontSize': '34px',
-        'imgURL': '../src/assets/img/appsus.png'
+        'imgURL': 'appsus'
     },
     {
         "_id": "5a5664025c3abdad6f5e098c",
@@ -80,7 +80,7 @@ const items = [
         // "row": 1,
         // "column": '5',
         'color': '#95d8ff',
-        'imgURL': './src/assets/img/mistertoy.png'
+        'imgURL': 'mistertoy'
     }
 ];
 
