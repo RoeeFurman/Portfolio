@@ -10,6 +10,16 @@
         color: item?.color,
       }"
     >
+      <i
+        v-if="item.desktop"
+        class="fa-solid fa-desktop"
+        title="Desktop App"
+      ></i>
+      <i
+        v-if="item.mobile"
+        class="fa-solid fa-mobile-button"
+        title="Mobile App"
+      ></i>
       <img class="main-pic" :src="imgUrl" />
       <div class="actions">
         <button>Details</button>

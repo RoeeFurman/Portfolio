@@ -28,11 +28,18 @@
     text-shadow: 2px 2px 8px #070a0e;
     z-index: 3;
 
+
     @media (max-width: 900px) {
         width: 100%;
         font-size: 45px;
         padding: 60px;
         margin: auto;
+
+        &.skill {
+            padding: 30px;
+            margin: 0;
+            text-align: center;
+        }
     }
 }
 

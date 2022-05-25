@@ -1,8 +1,9 @@
 .about {
-    background-color: #070a0e;
-    background-image: url('https://svgsilh.com/svg/1254502-607d8b.svg');
+    background-color: #000000;
     background-image: url('https://svgsilh.com/svg/1254502-3e5b85.svg');
-    background-size: cover;
+    // background-image: url('https://svgsilh.com/svg/1303776-607d8b.svg');
+    background-size: contain;
+    background-size: 700px;
     height: 100vh;
     padding: 100px 150px;
     display: flex;
@@ -11,7 +12,7 @@
     justify-content: center;
     width: 100%;
     border-bottom: 3px solid;
-    border-image: linear-gradient(45deg, #ffffff, rgb(255, 111, 0)) 1;
+    border-image: linear-gradient(90deg, orange, black) 1;
 
     @media (max-width: 900px) {
         padding: 10px 15px;
@@ -25,15 +26,16 @@
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #070a0edd;
-        padding: 20px;
+        padding: 10px 20px;
         border-radius: 80px;
-        border: 1px solid darkgray;
+        border: 1px solid rgb(0, 0, 0);
         -webkit-box-shadow: 0px 0px 37px 30px rgba(0, 0, 0, 0.57);
-        box-shadow: 0px 0px 37px 30px rgba(0, 0, 0, 0.57);
-        transition: all .4s;
+        box-shadow: 0px 0px 37px 0px rgba(218, 232, 255, 0.57);
+        transition: all .1s;
+        max-width: 850px;
 
         &:hover {
-            box-shadow: 0px 0px 37px 0px rgba(71, 138, 255, 0.57);
+            box-shadow: 0px 0px 37px 4px #85ceff;
 
             @media (max-width: 900px) {
                 box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.57);
@@ -46,13 +48,14 @@
             top: calc(50% + 0px);
             border: none;
             background-color: #070a0e68;
+            box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.57);
         }
 
     }
 
     .main-title {
         color: white;
-        font-size: 44px;
+        font-size: 30px;
         margin-top: 30px;
         text-align: left;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -64,12 +67,12 @@
         }
 
         &.big {
-            font-size: 64px;
+            font-size: 45px;
             text-shadow: 2px 2px 4px #bddcff;
 
             @media (max-width: 900px) {
                 font-size: 32px;
-                margin-top: 80px;
+                margin-top: 90px;
             }
 
         }
@@ -98,14 +101,33 @@
     .main-text {
         text-shadow: 0px 0px 20px #000000;
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         max-width: 1200px;
+        margin-top: 20px;
         cursor: default;
+
+        p {
+            margin-top: 7px;
+            max-width: 600px;
+            padding: 10px 8px;
+        }
+
+        p+.line {
+            border: 1px solid white;
+            width: 50%;
+            margin: auto;
+            margin-top: 12px;
+            border-image: linear-gradient(45deg, #070a0e, #ffa600) 1;
+        }
 
         @media (max-width: 900px) {
             font-size: 18px;
-            margin-top: 90px;
-            padding: 10px;
+            margin-top: 20px;
+            padding: 5px;
+
+            p {
+                margin-top: 5px;
+            }
         }
     }
 
@@ -114,7 +136,7 @@
         padding: 5px 40px;
         display: flex;
         justify-content: space-between;
-        margin: 60px auto 10px;
+        margin: 40px auto 30px;
         align-items: center;
         background-color: #181e25;
         border-radius: 20px;
@@ -128,7 +150,7 @@
 
         @media (max-width: 900px) {
             width: 70%;
-            margin: 100px auto 10px;
+            margin: 40px auto 10px;
             padding: 5px 30px;
         }
 
