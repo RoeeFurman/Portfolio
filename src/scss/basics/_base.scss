@@ -62,3 +62,24 @@ a {
     text-decoration: underline;
   }
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #4e74a9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0f1620;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #202e43;
+}
